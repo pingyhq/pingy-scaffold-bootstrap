@@ -24,7 +24,7 @@ pingy scaffold bootstrap
 
 4. Pingy will open your web browser and allow you to choose from dozens of templates and scaffold the one you like. 👍
 
-<img src="assets/screenshots/pingy-bootstrap-scaffold.png" width="1110">
+<img src="assets/screenshots/scaffold-animation.gif">
 
 5. Go back to your terminal, confirm your scaffold and install.
 
