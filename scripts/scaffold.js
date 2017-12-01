@@ -72,7 +72,9 @@ function scaffold() {
 
 	const vars = Object.assign({}, defaultPathsModules);
 	const files = [];
+	const devDependencies = {};
 	const dependencies = {};
+
 
 	if (hasCustomJS(folderName)) {
 		const output = "scripts/main.js";
@@ -92,7 +94,7 @@ function scaffold() {
 				output
 			});
 		} else if (styleFormat === "scss") {
-			dependencies["node-sass"] = nodeSassVersion;
+			devDependencies["node-sass"] = nodeSassVersion;
 			files.push({
 				input: "templates/scss/template.scss",
 				includes: {
@@ -113,7 +115,7 @@ function scaffold() {
 		dependencies.holderjs = holderJsVersion;
 	}
 
-	pingy.scaffold({ files, dependencies }).then(() => {
+	pingy.scaffold({ files, dependencies, devDependencies }).then(() => {
 		showFinishModal();
 		window.addEventListener("blur", () => window.close());
 	});

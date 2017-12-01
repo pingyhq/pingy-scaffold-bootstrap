@@ -12,7 +12,5 @@
 	"author": "Dave Jeffery <dave@davejeffery.com>",
 	"license": "ISC",
 	"dependencies": {},
-	"devDependencies": {
-		"@pingy/cli": "^0.10.4"
-	}
+	"devDependencies": {}
 }
