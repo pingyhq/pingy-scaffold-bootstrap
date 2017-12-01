@@ -22,7 +22,7 @@ mkdir mysite && cd mysite
 pingy scaffold bootstrap
 ```
 
-4. Pingy will open your web browser and choose from dozens of templates and scaffold the one you like. 👍
+4. Pingy will open your web browser and allow you to choose from dozens of templates and scaffold the one you like. 👍
 
 <img src="assets/screenshots/pingy-bootstrap-scaffold.png" width="1110">
 
