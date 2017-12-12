@@ -1,16 +1,16 @@
 {
-	"name": "bootstrap",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "pingy dev",
-		"export": "pingy export"
-	},
-	"keywords": [],
-	"author": "Dave Jeffery <dave@davejeffery.com>",
-	"license": "ISC",
-	"dependencies": {},
-	"devDependencies": {}
+  "name": "pingy-scaffold-bootstrap",
+  "version": "1.0.0",
+  "description": "Web scaffold for Bootstrap 4 (beta)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pingy dev",
+    "export": "pingy export"
+  },
+  "keywords": [],
+  "author": "Dave Jeffery <dave@davejeffery.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
