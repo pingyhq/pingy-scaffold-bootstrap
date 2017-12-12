@@ -8,6 +8,7 @@
     "start": "pingy dev",
     "export": "pingy export"
   },
+  "repository": "pingyhq/pingy-scaffold-bootstrap",
   "keywords": [],
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT",
